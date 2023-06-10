@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MadCapLog Protocol="2" Description="MadCap Flare 2022 r3 Generated Online.fltar" Date="2023-06-09T23:15:39.7860916+02:00">
+    <Messages>Publishing target Online...
+Publish skipped: No destination selected.
+Saving log to "C:\API Documentation for beginners\Output\anna_krzemien\Online\Online.mclog"
+</Messages>
+    <Warnings />
+    <Errors>
+        <LogEntry File="../../../Project/Targets/Online.fltar" Message="Publish skipped: No destination selected.&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Publisher" Target="Online" ErrorID="140001" />
+    </Errors>
+</MadCapLog>

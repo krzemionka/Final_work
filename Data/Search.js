@@ -1,0 +1,1 @@
+define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/Basic Knowledge on API Documentation/Basic Knowledge on API Documentation.htm'],s:['+48'],p:[['+48',12],['minimizing',8]]});

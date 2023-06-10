@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_Side_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-toc-path="Basic Knowledge on API Documentation" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>How to write API documentation?</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <script src="../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="navigation" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" role="banner" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../Home.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" role="navigation" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Search" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True">
+                                    <div class="nocontent">
+                                        <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                        </div>
+                                    </div>
+                                    <div role="main" id="mc-main-content">
+                                        <h1>How to write API documentation?</h1>
+                                        <p>When you are about to write API documentation it is advisable to follow a plan:</p>
+                                        <p>
+                                            <img src="../Resources/Images/img_chapter1_tasks_fig 1.png" />
+                                        </p>
+                                        <p style="text-align: center;"><i>source: own</i>
+                                        </p>
+                                        <p>Let’s discuss them as following above listed steps as they will help you to organize your work, not only in API documentation but actually in most technical writing tasks.</p>
+                                        <p><b>Planning</b> is about creation of a documentation plan, even if it’s brief or incomplete. Find answers to questions like:</p>
+                                        <ul>
+                                            <li>When is the release for the new API product?</li>
+                                        </ul>
+                                        <ul>
+                                            <li>What content resources are already available? Are there any drafts or product design documents?</li>
+                                        </ul>
+                                        <ul>
+                                            <li>Where will the docs be published and what outputs and formats will be needed?</li>
+                                        </ul>
+                                        <ul>
+                                            <li>Whom can I contact for information, review and sign off on the content? Identify the product manager, tech lead, engineers, QA, and other stakeholders.</li>
+                                        </ul>
+                                        <ul>
+                                            <li>Who is the recipient? What do you want readers to be able to do?</li>
+                                        </ul>
+                                        <p>If you don’t know where to start ask the engineers to write a first draft or give them a template with some fill-in-the-blank type sections. It might be your starting point so that you could spend time on  the content and trying to understand whether it’s coherent for the audience.</p>
+                                        <p>Now it is time to gather all necessary material. Get API description, the used language, other references and sample cases from the API developers.  Make a detailed research of the already existing documents. Even if the product is totally new, some engineer had to write a description of the product feature to describe the problem and the need for the API. Also, there should be another document called “a product design document” that acts as a blueprint for the feature’s design. You may also have a look at reference documentation where engineers make annotations in the source code. Gather as many documents as you can find, list them in your doc plan and then go through these documents to learn about the product and see what material you can use in your docs. It would be great to see a demo of the product. It might be just a scenario of an API call and its  response. Most engineers are proud of what they had built so they will be happy to present the demo.</p>
+                                        <p>&#160;</p>
+                                        <p>Our next step deals with <b>information gathering</b>. </p>
+                                        <p>
+                                            <img src="../Resources/Images/img_chapter1_tasks_fig 3.jpg" />
+                                        </p>
+                                        <p style="text-align: center;"><i>source: own</i>
+                                        </p>
+                                        <p>Think of yourself as a technical journalist who gathers information for their story by interviewing people. You need to adjust your questions to  several different groups of people:</p>
+                                        <ul>
+                                            <li style="font-size: 11pt;">Engineering — the group that coded the feature</li>
+                                        </ul>
+                                        <ul>
+                                            <li style="font-size: 11pt;">Product management — the group that oversees the feature’s planning and strategy</li>
+                                        </ul>
+                                        <ul>
+                                            <li style="font-size: 11pt;">Partner engineers — the group that helps users implement the feature</li>
+                                        </ul>
+                                        <ul>
+                                            <li style="font-size: 11pt;">Quality assurance — the group that tests the feature</li>
+                                        </ul>
+                                        <p>Reaching so many different groups gives you the chance to see the product from different perspectives. Remember to be ready for each meetings - prepare lists of questions and send them before the meeting. It will show that you value your partner’s time and are serious about your job. When you meet, it is advisable that you record your interview, especially with engineers. Some exemplary questions to ask the <span style="color: #008080; font-weight: bold;">engineers</span>:</p>
+                                        <ul>
+                                            <li>Are there any requirements to use this API?</li>
+                                        </ul>
+                                        <ul>
+                                            <li>How do you set it up?</li>
+                                            <li>How do you initialize it?</li>
+                                            <li>Can you talk through the code in the sample app?</li>
+                                            <li>How do you use this API for some common use cases?</li>
+                                        </ul>
+                                        <ul>
+                                            <li>Are there limitations that partners will want to know about?</li>
+                                        </ul>
+                                        <p>Interviewing a<span style="color: #008080; font-weight: bold;"> product manager</span> (PM) may also be beneficial because  this person is focused on different aspects of the product than technical ones (like product messaging, use cases, audience analysis and concepts related to the product). But also PM will be fond of presenting the product in an positive light and as a great success. Some exemplary questions to ask the PM:</p>
+                                        <ul>
+                                            <li>Who is the audience for this API?</li>
+                                        </ul>
+                                        <ul>
+                                            <li>What are some use cases for this API?</li>
+                                        </ul>
+                                        <ul>
+                                            <li>What are some important concepts to know when working with this API?</li>
+                                        </ul>
+                                        <ul>
+                                            <li>When is the release date for the feature?</li>
+                                        </ul>
+                                        <p>When dealing with the group of partner<span style="color: #008080; font-weight: bold;"> engineers/solutions engineers</span> have in mind that they are the most important group as they interface with partners/users to help them implement the company’s products and they are able to provide you with the closest feedback from users. What is more, partner engineers are fond of a product documentation. The better documentation the less work they have with product implementation and answering users’ questions, troubleshoot issues, etc.</p>
+                                        <ul>
+                                            <li>Which partners are we developing this feature for/with?</li>
+                                            <li>How is this target partner planning to use the API?</li>
+                                            <li>How does this partner implement the feature within their company? What are their workflow and setup?</li>
+                                            <li>What issues or questions do you anticipate partners will have related to this API?</li>
+                                        </ul>
+                                        <p>Another group to interview is the<span style="font-weight: bold; color: #f3f3f3;"> <span style="color: #008080;">QA group</span></span>. They make a list of test cases that they are testing the feature against so you will information about how to test the API.</p>
+                                        <ul>
+                                            <li>Do you have a list of test cases that you’re testing the API against?</li>
+                                            <li>How are you testing the API? Is there a specific test environment you’re using?</li>
+                                            <li>Are there any test devices or setup I can use?</li>
+                                        </ul>
+                                        <ul>
+                                            <li>Is there a sample app you’re using to do the testing? How do you use this sample app?</li>
+                                            <li>Do you have any documents that describe testing steps?</li>
+                                            <li>Are there any bugs or limitations to be aware of? Where are the bugs tracked?</li>
+                                        </ul>
+                                        <ul>
+                                            <li>Do you have a list of what data the API should return in various scenarios?</li>
+                                            <li>Are there any resources related to this API that might be helpful?</li>
+                                        </ul>
+                                        <p>&#160;</p>
+                                        <p>
+                                            <img src="../Resources/Images/img_chapter1_tasks_fig 4.jpg" />
+                                        </p>
+                                        <p style="text-align: center;"><i>source: own</i>
+                                        </p>
+                                        <p>Most probably now you have a long document with many pages. Everything looks disorganized and reminds of a pile of information rather than a nicely prepared document. Take all the information and group it into different sections so that you end up with 4-5 sections per document. An example of sections may look like this:</p>
+                                        <ul>
+                                            <li><span style="color: #008080;">Product overview</span> — high-level description of the feature, requirements, prerequisites, geographic availability, components involved, workflow implementation, how to get help, etc.</li>
+                                            <li><span style="color: #008080;">Concepts </span>— foundational concepts related to using the feature. These topics might include diagrams or other visuals to assist with understanding.</li>
+                                            <li><span style="color: #008080;">Reference </span>— reference documentation.</li>
+                                            <li><span style="color: #008080;">How-tos</span> — descriptions of how to implement the API and handle various scenarios.</li>
+                                        </ul>
+                                        <p>Fill each section with appropriate content. Now you need subject matter experts to review what you've written. Then you need to make the content more visual. Add screenshots, video tutorials, concept diagrams and other illustrations to your content to make it understandable and clear. As soon as the the content is more or less finalized, run it through a spell checker: Grammarly,  Microsoft Word, Google Docs, HyperSTE plugin (to check for simplified technical English) or Acrolinx.</p>
+                                        <p>
+                                            <img src="../Resources/Images/img_chapter1_tasks_fig 5.jpg" />
+                                        </p>
+                                        <p style="text-align: center;"><i>source: own</i>
+                                        </p>
+                                        <p><b>Document review</b> is a must because you’re usually writing about a technical domain that you’re not an expert in. One way to gather people’s feedback is to organize a review meeting. However, people are usually not fond of reading and making corrections so you might organize a review meeting and choose one of the following techniques:</p>
+                                        <ul>
+                                            <li>split the meeting into the reading part where everyone reads your document and the second part, when you collect all comments</li>
+                                            <li>ask people to comment on while reading the document</li>
+                                        </ul>
+                                        <p>It would be advisable not to review more than the reviewer can read in 20 minutes which is about  6 pages. When there is a lot of content to review try to set up multiple doc review sessions. If the reviewers run out of comments ask  questions and dispel any doubts you have. After the meeting, incorporate edits into the documentation. If you don’t incorporate someone’s feedback, it would be a good practice to indicate a reason in your revision notes.</p>
+                                        <p>Another strategy is to layer the review process  so each reviewer analyse your content one by one. You have an opportunity to incorporate the edits from each review before the next reviewer sees the content. You can improve the content so as to make your document better.</p>
+                                        <p>When it comes to organising a documentation review meeting, avoid Mondays mornings or Friday afternoons. Also lunchtime is not a good time to gather people</p>
+                                        <p>The review cycle ends when you <b>release</b> the product.</p>
+                                        <p>
+                                            <img src="../Resources/Images/img_chapter1_tasks_fig 6.jpg" />
+                                        </p>
+                                        <p style="text-align: center;"><i>source: own</i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

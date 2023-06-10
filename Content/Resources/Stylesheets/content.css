@@ -1,0 +1,67 @@
+/*<meta />*/
+
+/*<meta sourceDocument="C:\Users\anna.krzemien\Desktop\VISTULA\praca zaliczeniowa\content.docx" />*/
+
+p
+{
+	margin-bottom: 8pt;
+	font-family: Calibri;
+	font-size: 11pt;
+	margin-top: 0pt;
+}
+
+ol
+{
+	margin-bottom: 8pt;
+	font-family: Calibri;
+	font-size: 11pt;
+	margin-top: 0pt;
+}
+
+ul
+{
+	margin-bottom: 8pt;
+	font-family: Calibri;
+	font-size: 11pt;
+	margin-top: 0pt;
+}
+
+li
+{
+	margin-bottom: 8pt;
+	font-family: Calibri;
+	font-size: 11pt;
+	margin-top: 0pt;
+}
+
+td
+{
+	margin-bottom: 8pt;
+	font-family: Calibri;
+	font-size: 11pt;
+	vertical-align: top;
+}
+
+p.Stopka
+{
+	font-size: 11pt;
+	margin-bottom: 0pt;
+	font-family: Calibri;
+}
+
+span.Hiper\000142\000105cze
+{
+	color: #0000FF;
+	text-decoration: underline;
+}
+
+p.Stopka_1
+{
+	font-size: 11pt;
+	margin-bottom: 0pt;
+	font-family: Calibri;
+	margin-left: 5pt;
+	margin-right: 5pt;
+	text-align: right;
+}
+
